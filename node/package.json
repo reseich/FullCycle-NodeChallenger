@@ -1,0 +1,13 @@
+{
+  "name": "nodechallenger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gerador-nome": "^0.0.5",
+    "mysql": "^2.18.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
