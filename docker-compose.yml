@@ -21,6 +21,7 @@ services:
       - node-network
     volumes: 
       - ./node:/usr/src/app
+      - node_modules:/usr/src/app/node_modules
     tty: true
     ports: 
       - "3000:3000"
@@ -50,3 +51,4 @@ networks:
 
 volumes: 
   mysql:
+  node_modules:
